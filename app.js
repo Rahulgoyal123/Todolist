@@ -13,7 +13,6 @@ let items = ["Buy Food", "Cook Food", "Eat Food"];
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.get("/", function (req, res) {
-  // res.send("hello world");
   let day =date();
   
 
